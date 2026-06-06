@@ -13,13 +13,6 @@ import net.minecraft.world.entity.MobCategory;
 import java.util.function.Supplier;
 
 public interface Entities {
-    Supplier<EntityType<GyrodyneEntity>> GYRODYNE = register("gyrodyne", EntityType.Builder
-            .of(GyrodyneEntity::new, MobCategory.MISC)
-            .sized(1.3f, 0.6f)
-            .clientTrackingRange(12)
-            .fireImmune()
-    );
-
     Supplier<EntityType<BiplaneEntity>> BIPLANE = register("biplane", EntityType.Builder
             .of(BiplaneEntity::new, MobCategory.MISC)
             .sized(1.75f, 0.85f)
@@ -31,34 +24,6 @@ public interface Entities {
             .of(AirshipEntity::new, MobCategory.MISC)
             .sized(1.5f, 3.0f)
             .clientTrackingRange(12)
-            .fireImmune()
-    );
-
-    Supplier<EntityType<CargoAirshipEntity>> CARGO_AIRSHIP = register("cargo_airship", EntityType.Builder
-            .of(CargoAirshipEntity::new, MobCategory.MISC)
-            .sized(1.75f, 3.0f)
-            .clientTrackingRange(12)
-            .fireImmune()
-    );
-
-    Supplier<EntityType<WarshipEntity>> WARSHIP = register("warship", EntityType.Builder
-            .of(WarshipEntity::new, MobCategory.MISC)
-            .sized(5.0f, 6.5f)
-            .clientTrackingRange(16)
-            .fireImmune()
-    );
-
-    Supplier<EntityType<QuadrocopterEntity>> QUADROCOPTER = register("quadrocopter", EntityType.Builder
-            .of(QuadrocopterEntity::new, MobCategory.MISC)
-            .sized(1.5f, 0.5f)
-            .clientTrackingRange(10)
-            .fireImmune()
-    );
-
-    Supplier<EntityType<BambooHopperEntity>> BAMBOO_HOPPER = register("bamboo_hopper", EntityType.Builder
-            .of(BambooHopperEntity::new, MobCategory.MISC)
-            .sized(3.0f, 1.5f)
-            .clientTrackingRange(14)
             .fireImmune()
     );
 

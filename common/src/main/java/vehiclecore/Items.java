@@ -24,12 +24,7 @@ public interface Items {
     Supplier<Item> BOILER = register("boiler", () -> new Item(baseProps().stacksTo(8)));
 
     Supplier<Item> AIRSHIP = register("airship", () -> new DyeableAircraftItem(baseProps().stacksTo(1), world -> new AirshipEntity(Entities.AIRSHIP.get(), world)));
-    Supplier<Item> CARGO_AIRSHIP = register("cargo_airship", () -> new DyeableAircraftItem(baseProps().stacksTo(1), world -> new CargoAirshipEntity(Entities.CARGO_AIRSHIP.get(), world)));
-    Supplier<Item> WARSHIP = register("warship", () -> new DyeableAircraftItem(baseProps().stacksTo(1), world -> new WarshipEntity(Entities.WARSHIP.get(), world)));
     Supplier<Item> BIPLANE = register("biplane", () -> new AircraftItem(baseProps().stacksTo(1), world -> new BiplaneEntity(Entities.BIPLANE.get(), world)));
-    Supplier<Item> GYRODYNE = register("gyrodyne", () -> new AircraftItem(baseProps().stacksTo(1), world -> new GyrodyneEntity(Entities.GYRODYNE.get(), world)));
-    Supplier<Item> QUADROCOPTER = register("quadrocopter", () -> new AircraftItem(baseProps().stacksTo(1), world -> new QuadrocopterEntity(Entities.QUADROCOPTER.get(), world)));
-    Supplier<Item> BAMBOO_HOPPER = register("bamboo_hopper", () -> new AircraftItem(baseProps().stacksTo(1), world -> new BambooHopperEntity(Entities.BAMBOO_HOPPER.get(), world)));
 
     Supplier<Item> ROTARY_CANNON = register("rotary_cannon", () -> new WeaponItem(baseProps().stacksTo(1), WeaponMount.Type.ROTATING));
     Supplier<Item> HEAVY_CROSSBOW = register("heavy_crossbow", () -> new WeaponItem(baseProps().stacksTo(1), WeaponMount.Type.FRONT));

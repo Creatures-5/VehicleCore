@@ -7,42 +7,10 @@
       }
     ]
   },
-  "engine_start_warship": {
-    "sounds": [
-      {
-        "name": "vehiclecore:engine_start_warship",
-        "attenuation_distance": 24
-      }
-    ]
-  },
-  "engine_start_bamboo_hopper": {
-    "sounds": [
-      {
-        "name": "vehiclecore:engine_start_bamboo_hopper",
-        "attenuation_distance": 24
-      }
-    ]
-  },
-  "warship": {
-    "sounds": [
-      {
-        "name": "vehiclecore:warship",
-        "attenuation_distance": 24
-      }
-    ]
-  },
   "propeller": {
     "sounds": [
       {
         "name": "vehiclecore:propeller",
-        "attenuation_distance": 24
-      }
-    ]
-  },
-  "propeller_bamboo_hopper": {
-    "sounds": [
-      {
-        "name": "vehiclecore:propeller_bamboo_hopper",
         "attenuation_distance": 24
       }
     ]

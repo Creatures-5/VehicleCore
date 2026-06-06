@@ -13,9 +13,7 @@ public class ItemColors {
     public static Map<Item, ItemColor> ITEM_COLORS = new HashMap<>();
 
     public static Map<Supplier<Item>, ItemColor> ITEM_COLOR_PROVIDERS = new HashMap<>() {{
-        put(Items.WARSHIP, getDyeColor(0xECC88C));
         put(Items.AIRSHIP, getDyeColor(0xECC88C));
-        put(Items.CARGO_AIRSHIP, getDyeColor(0xECC88C));
     }};
 
     public static ItemColor getDyeColor(int defaultColor) {

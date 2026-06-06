@@ -7,7 +7,6 @@ import vehiclecore.config.Config;
 import vehiclecore.entity.BiplaneEntity;
 import vehiclecore.entity.EngineVehicle;
 import vehiclecore.entity.VehicleEntity;
-import vehiclecore.entity.WarshipEntity;
 import vehiclecore.item.upgrade.VehicleStat;
 import net.minecraft.client.CameraType;
 import net.minecraft.client.Minecraft;
@@ -43,8 +42,8 @@ public class OverlayRenderer {
                             AttitudeIndicator.INSTANCE, VectorIndicator.INSTANCE, WarningIndicator.INSTANCE})
                         i.update(client, aircraft);
                     if (aircraft.getProperties().get(VehicleStat.HUD) == 0
-                            && (aircraft instanceof BiplaneEntity || aircraft instanceof WarshipEntity)
-                    )   // hud currently supports biplane / warship
+                            && (aircraft instanceof BiplaneEntity)
+                    )   // hud currently supports biplane
                         INSTANCE.renderAircraftHUD(client, context, tickDelta, barHeightOffset, aircraft);
                     if (aircraft.getProperties().get(VehicleStat.DIALS) == 0)   // dials can be used on any aircraft
                         INSTANCE.renderAircraftDials(client, context, tickDelta, barHeightOffset, aircraft);
