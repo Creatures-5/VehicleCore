@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "vehiclecore:enhanced_propeller",
+    "vehiclecore:eco_engine",
+    "vehiclecore:nether_engine",
+    "vehiclecore:steel_boiler",
+    "vehiclecore:industrial_gears",
+    "vehiclecore:sturdy_pipes",
+    "vehiclecore:gyroscope",
+    "vehiclecore:gyroscope_hud",
+    "vehiclecore:gyroscope_dials",
+    "vehiclecore:hull_reinforcement",
+    "vehiclecore:improved_landing_gear"
+  ]
+}

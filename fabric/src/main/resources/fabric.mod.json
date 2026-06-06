@@ -1,39 +1,39 @@
 {
   "schemaVersion": 1,
-  "id": "immersive_aircraft",
+  "id": "vehiclecore",
   "version": "${version}",
-  "name": "Immersive Aircraft",
-  "description": "A bunch of rustic aircraft to travel, transport, and explore!\n",
+  "name": "VehicleCore",
+  "description": "A fork of Immersive Aircraft\n",
   "authors": [
-    "Luke100000"
+    "Creatures-5"
   ],
   "contact": {
-    "homepage": "https://www.curseforge.com/minecraft/mc-mods/immersive-aircraft",
-    "sources": "https://github.com/Luke100000/ImmersiveAircraft",
-    "issues": "https://github.com/Luke100000/ImmersiveAircraft/issues"
+    "homepage": "N/A",
+    "sources": "https://github.com/Creatures-5/VehicleCore",
+    "issues": "https://github.com/Creatures-5/VehicleCore/issues"
   },
   "license": "GPL-3.0-only",
   "icon": "icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "immersive_aircraft.fabric.CommonFabric"
+      "vehiclecore.fabric.CommonFabric"
     ],
     "client": [
-      "immersive_aircraft.fabric.ClientFabric"
+      "vehiclecore.fabric.ClientFabric"
     ],
     "modmenu": [
-      "immersive_aircraft.config.ModMenuIntegration"
+      "vehiclecore.config.ModMenuIntegration"
     ],
     "jei_mod_plugin": [
-      "immersive_aircraft.combat.JEICCombat"
+      "vehiclecore.combat.JEICCombat"
     ],
     "rei_client": [
-      "immersive_aircraft.combat.REICombat"
+      "vehiclecore.combat.REICombat"
     ]
   },
   "mixins": [
-    "immersive_aircraft.mixins.json"
+    "vehiclecore.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.11.3",

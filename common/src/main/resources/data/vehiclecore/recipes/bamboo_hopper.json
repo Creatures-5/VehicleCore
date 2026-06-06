@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PHP",
+    "BEB",
+    "BBB"
+  ],
+  "key": {
+    "B": [
+      {
+        "item": "minecraft:bamboo_block"
+      }
+    ],
+    "H": [
+      {
+        "item": "vehiclecore:hull"
+      }
+    ],
+    "E": [
+      {
+        "item": "vehiclecore:engine"
+      }
+    ],
+    "P": [
+      {
+        "item": "vehiclecore:biplane"
+      }
+    ]
+  },
+  "result": {
+    "item": "vehiclecore:bamboo_hopper"
+  }
+}

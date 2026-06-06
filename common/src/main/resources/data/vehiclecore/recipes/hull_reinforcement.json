@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "HHH",
+    "III"
+  ],
+  "key": {
+    "H": [
+      {
+        "item": "vehiclecore:hull"
+      }
+    ],
+    "I": [
+      {
+        "item": "minecraft:iron_ingot"
+      }
+    ]
+  },
+  "result": {
+    "item": "vehiclecore:hull_reinforcement"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "vehiclecore:item/warship_color",
+    "layer1": "vehiclecore:item/warship"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SSS",
+    "HHE"
+  ],
+  "key": {
+    "S": [
+      {
+        "item": "vehiclecore:sail"
+      }
+    ],
+    "H": [
+      {
+        "item": "vehiclecore:hull"
+      }
+    ],
+    "E": [
+      {
+        "item": "vehiclecore:engine"
+      }
+    ]
+  },
+  "result": {
+    "item": "vehiclecore:airship"
+  }
+}

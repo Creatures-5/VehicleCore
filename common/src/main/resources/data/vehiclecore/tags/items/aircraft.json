@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "vehiclecore:biplane",
+    "vehiclecore:gyrodyne",
+    "vehiclecore:quadrocopter",
+    "vehiclecore:airship",
+    "vehiclecore:cargo_airship",
+    "vehiclecore:warship",
+    "vehiclecore:bamboo_hopper"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " H ",
+    "HEP",
+    " H "
+  ],
+  "key": {
+    "H": [
+      {
+        "item": "vehiclecore:hull"
+      }
+    ],
+    "E": [
+      {
+        "item": "vehiclecore:engine"
+      }
+    ],
+    "P": [
+      {
+        "item": "vehiclecore:propeller"
+      }
+    ]
+  },
+  "result": {
+    "item": "vehiclecore:biplane"
+  }
+}

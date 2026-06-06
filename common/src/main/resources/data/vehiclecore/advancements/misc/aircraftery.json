@@ -1,0 +1,53 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "vehiclecore:boiler",
+      "vehiclecore:engine",
+      "vehiclecore:hull",
+      "vehiclecore:propeller",
+      "vehiclecore:sail",
+      "vehiclecore:airship",
+      "vehiclecore:cargo_airship",
+      "vehiclecore:biplane",
+      "vehiclecore:gyrodyne",
+      "vehiclecore:quadrocopter",
+      "vehiclecore:warship",
+      "vehiclecore:bamboo_hopper",
+      "vehiclecore:sturdy_pipes",
+      "vehiclecore:eco_engine",
+      "vehiclecore:nether_engine",
+      "vehiclecore:steel_boiler",
+      "vehiclecore:industrial_gears",
+      "vehiclecore:enhanced_propeller",
+      "vehiclecore:gyroscope",
+      "vehiclecore:gyroscope_hud",
+      "vehiclecore:gyroscope_dials",
+      "vehiclecore:hull_reinforcement",
+      "vehiclecore:improved_landing_gear",
+      "vehiclecore:telescope",
+      "vehiclecore:bomb_bay",
+      "vehiclecore:rotary_cannon",
+      "vehiclecore:heavy_crossbow"
+    ]
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

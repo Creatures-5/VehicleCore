@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PBP",
+    "BEB",
+    "PBP"
+  ],
+  "key": {
+    "E": [
+      {
+        "item": "vehiclecore:engine"
+      }
+    ],
+    "B": [
+      {
+        "item": "minecraft:bamboo"
+      }
+    ],
+    "P": [
+      {
+        "item": "vehiclecore:propeller"
+      }
+    ]
+  },
+  "result": {
+    "item": "vehiclecore:quadrocopter"
+  }
+}

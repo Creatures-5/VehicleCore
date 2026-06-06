@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "vehiclecore:rotary_cannon",
+    "vehiclecore:heavy_crossbow",
+    "vehiclecore:telescope",
+    "vehiclecore:bomb_bay"
+  ]
+}
