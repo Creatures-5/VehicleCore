@@ -1,0 +1,89 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 288,
+				"texture_height": 288,
+				"visible_bounds_width": 9,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "Engine",
+					"pivot": [7, 4, -31],
+					"cubes": [
+						{"origin": [-6, 6, -31], "size": [12, 12, 25], "uv": [86, 59]}
+					]
+				},
+				{
+					"name": "bone",
+					"parent": "Engine",
+					"pivot": [0, 12, -32],
+					"cubes": [
+						{"origin": [-8, 4, -32], "size": [16, 16, 0], "uv": [116, 143]}
+					]
+				},
+				{
+					"name": "Wheels",
+					"pivot": [7, 4, -31],
+					"cubes": [
+						{"origin": [8, -1, -25], "size": [2, 6, 6], "uv": [24, 159]},
+						{"origin": [-10, -1, -25], "size": [2, 6, 6], "uv": [102, 159]},
+						{"origin": [0, 0, 40], "size": [2, 6, 6], "uv": [118, 159]}
+					]
+				},
+				{
+					"name": "Fuselage",
+					"pivot": [60, 5, -29],
+					"cubes": [
+						{"origin": [-4, 4, -18], "size": [8, 2, 35], "uv": [0, 59]},
+						{"origin": [-5, 12, 14], "size": [10, 4, 9], "uv": [78, 135]},
+						{"origin": [-3, 6, 23], "size": [8, 8, 29], "uv": [0, 96]},
+						{"origin": [-9, 5, 13], "size": [18, 7, 11], "uv": [74, 117]}
+					]
+				},
+				{
+					"name": "Seat",
+					"parent": "Fuselage",
+					"pivot": [60, 5, -29],
+					"cubes": [
+						{"origin": [-10, 5.01, -9], "size": [20, 6, 2], "uv": [122, 44]},
+						{"origin": [-9, 5.01, -7], "size": [18, 1, 20], "uv": [74, 96]},
+						{"origin": [8, 5.01, -7], "size": [2, 6, 20], "uv": [132, 117]},
+						{"origin": [-10, 5.01, -7], "size": [2, 6, 20], "uv": [0, 133]}
+					]
+				},
+				{
+					"name": "Wings",
+					"parent": "Fuselage",
+					"pivot": [60, 5, -29],
+					"cubes": [
+						{"origin": [-60, 5, -30], "size": [120, 2, 20], "uv": [0, 0]},
+						{"origin": [-60, 14, -30], "size": [120, 2, 20], "uv": [0, 22]},
+						{"origin": [53, 7, -26], "size": [0, 7, 12], "uv": [78, 148]},
+						{"origin": [26, 7, -26], "size": [0, 7, 12], "uv": [150, 96]},
+						{"origin": [-53, 7, -26], "size": [0, 7, 12], "uv": [148, 143]},
+						{"origin": [-26, 7, -26], "size": [0, 7, 12], "uv": [0, 159]}
+					]
+				},
+				{
+					"name": "Elevator",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-24, 9.5, 37], "size": [48, 2, 13], "uv": [0, 44]}
+					]
+				},
+				{
+					"name": "Rudder",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [0, 7, 39], "size": [2, 20, 15], "uv": [44, 135]}
+					]
+				}
+			]
+		}
+	]
+}

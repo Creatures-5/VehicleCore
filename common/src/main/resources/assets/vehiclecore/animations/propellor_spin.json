@@ -1,0 +1,24 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"propellor_spin": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"bone": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 0, "180*rot_speed"]
+						},
+						"1.0": {
+							"vector": [0, 0, "360*rot_speed"]
+						}
+					}
+				}
+			}
+		}
+	}
+}
