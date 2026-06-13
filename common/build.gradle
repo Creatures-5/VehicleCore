@@ -6,6 +6,17 @@ loom {
     accessWidenerPath = file("src/main/resources/vehiclecore.accessWidener")
 }
 
+repositories {
+    maven {
+        name = 'GeckoLib'
+        url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
+        content {
+                includeGroupByRegex("software\\.bernie.*")
+                includeGroup("com.eliotlash.mclib")
+        }
+    }
+}
+
 dependencies {
     // We depend on fabric loader here to use the fabric @Environment annotations
     // Do NOT use other classes from fabric loader
@@ -19,6 +30,9 @@ dependencies {
         //noinspection GroovyAssignabilityCheck
         exclude(group: "net.fabricmc.fabric-api")
     }
+
+    modImplementation("software.bernie.geckolib:geckolib-fabric-${minecraft_version}:${geckolib_version}")
+    implementation("com.eliotlash.mclib:mclib:20")
 
     modCompileOnlyApi("mezz.jei:jei-${minecraft_version}-common-api:${jei_version}")
 

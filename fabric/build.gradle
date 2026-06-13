@@ -19,17 +19,6 @@ configurations {
     developmentFabric.extendsFrom common
 }
 
-repositories {
-    maven {
-        name = 'GeckoLib'
-        url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
-        content {
-                includeGroupByRegex("software\\.bernie.*")
-                includeGroup("com.eliotlash.mclib")
-        }
-    }
-}
-
 dependencies {
     modImplementation "net.fabricmc:fabric-loader:${rootProject.fabric_loader_version}"
     modImplementation "net.fabricmc.fabric-api:fabric-api:${rootProject.fabric_api_version}"
@@ -46,9 +35,6 @@ dependencies {
 
     modCompileOnly "me.shedaniel:RoughlyEnoughItems-api-fabric:$rei_version"
     modCompileOnly "me.shedaniel:RoughlyEnoughItems-default-plugin-fabric:$rei_version"
-
-    modImplementation("software.bernie.geckolib:geckolib-fabric-${minecraft_version}:${geckolib_version}")
-    implementation("com.eliotlash.mclib:mclib:20")
 
     // Required to run JEI
     modRuntimeOnly("mezz.jei:jei-${minecraft_version}-fabric:${jei_version}")
