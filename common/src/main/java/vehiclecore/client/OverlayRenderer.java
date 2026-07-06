@@ -4,7 +4,7 @@ import com.mojang.blaze3d.systems.RenderSystem;
 import vehiclecore.Main;
 import vehiclecore.client.hud.*;
 import vehiclecore.config.Config;
-import vehiclecore.entity.BiplaneEntity;
+import vehiclecore.entity.DebugEntity;
 import vehiclecore.entity.EngineVehicle;
 import vehiclecore.entity.VehicleEntity;
 import vehiclecore.item.upgrade.VehicleStat;
@@ -42,8 +42,8 @@ public class OverlayRenderer {
                             AttitudeIndicator.INSTANCE, VectorIndicator.INSTANCE, WarningIndicator.INSTANCE})
                         i.update(client, aircraft);
                     if (aircraft.getProperties().get(VehicleStat.HUD) == 0
-                            && (aircraft instanceof BiplaneEntity)
-                    )   // hud currently supports biplane
+                            && (aircraft instanceof DebugEntity)
+                    )   // hud currently supports debug
                         INSTANCE.renderAircraftHUD(client, context, tickDelta, barHeightOffset, aircraft);
                     if (aircraft.getProperties().get(VehicleStat.DIALS) == 0)   // dials can be used on any aircraft
                         INSTANCE.renderAircraftDials(client, context, tickDelta, barHeightOffset, aircraft);

@@ -13,8 +13,8 @@ import net.minecraft.world.entity.MobCategory;
 import java.util.function.Supplier;
 
 public interface Entities {
-    Supplier<EntityType<BiplaneEntity>> BIPLANE = register("biplane", EntityType.Builder
-            .of(BiplaneEntity::new, MobCategory.MISC)
+    Supplier<EntityType<DebugEntity>> DEBUG = register("debug", EntityType.Builder
+            .of(DebugEntity::new, MobCategory.MISC)
             .sized(1.75f, 0.85f)
             .clientTrackingRange(12)
             .fireImmune()

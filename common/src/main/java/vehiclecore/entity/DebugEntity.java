@@ -6,9 +6,12 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.Level;
 import org.joml.Matrix4f;
+import software.bernie.geckolib.animatable.GeoEntity;
+import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache;
+import software.bernie.geckolib.core.animation.AnimatableManager.ControllerRegistrar;
 
-public class BiplaneEntity extends AirplaneEntity {
-    public BiplaneEntity(EntityType<? extends AircraftEntity> entityType, Level world) {
+public class DebugEntity extends AirplaneEntity implements GeoEntity {
+    public DebugEntity(EntityType<? extends AircraftEntity> entityType, Level world) {
         super(entityType, world, true);
     }
 
@@ -19,7 +22,7 @@ public class BiplaneEntity extends AirplaneEntity {
 
     @Override
     public Item asItem() {
-        return Items.BIPLANE.get();
+        return Items.DEBUG.get();
     }
 
     @Override
@@ -36,5 +39,17 @@ public class BiplaneEntity extends AirplaneEntity {
     @Override
     public double getZoom() {
         return 3.0;
+    }
+
+    @Override
+    public void registerControllers(ControllerRegistrar controllers) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'registerControllers'");
+    }
+
+    @Override
+    public AnimatableInstanceCache getAnimatableInstanceCache() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getAnimatableInstanceCache'");
     }
 }

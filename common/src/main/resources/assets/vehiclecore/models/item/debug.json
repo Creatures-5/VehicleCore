@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "vehiclecore:item/biplane"
+    "layer0": "vehiclecore:item/debug"
   }
 }

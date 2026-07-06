@@ -24,7 +24,7 @@ public interface Items {
     Supplier<Item> BOILER = register("boiler", () -> new Item(baseProps().stacksTo(8)));
 
     Supplier<Item> AIRSHIP = register("airship", () -> new DyeableAircraftItem(baseProps().stacksTo(1), world -> new AirshipEntity(Entities.AIRSHIP.get(), world)));
-    Supplier<Item> BIPLANE = register("biplane", () -> new AircraftItem(baseProps().stacksTo(1), world -> new BiplaneEntity(Entities.BIPLANE.get(), world)));
+    Supplier<Item> DEBUG = register("debug", () -> new AircraftItem(baseProps().stacksTo(1), world -> new DebugEntity(Entities.DEBUG.get(), world)));
 
     Supplier<Item> ROTARY_CANNON = register("rotary_cannon", () -> new WeaponItem(baseProps().stacksTo(1), WeaponMount.Type.ROTATING));
     Supplier<Item> HEAVY_CROSSBOW = register("heavy_crossbow", () -> new WeaponItem(baseProps().stacksTo(1), WeaponMount.Type.FRONT));

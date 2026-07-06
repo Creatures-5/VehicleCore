@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "vehiclecore:biplane",
+    "vehiclecore:debug",
     "vehiclecore:airship"
   ]
 }

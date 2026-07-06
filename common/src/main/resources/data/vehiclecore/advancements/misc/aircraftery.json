@@ -8,7 +8,7 @@
       "vehiclecore:propeller",
       "vehiclecore:sail",
       "vehiclecore:airship",
-      "vehiclecore:biplane",
+      "vehiclecore:debug",
       "vehiclecore:sturdy_pipes",
       "vehiclecore:eco_engine",
       "vehiclecore:nether_engine",

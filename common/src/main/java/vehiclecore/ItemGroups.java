@@ -14,6 +14,6 @@ public class ItemGroups {
     }
 
     public static ItemStack getIcon() {
-        return Items.BIPLANE.get().getDefaultInstance();
+        return Items.DEBUG.get().getDefaultInstance();
     }
 }

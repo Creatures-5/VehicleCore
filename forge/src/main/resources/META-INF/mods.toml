@@ -11,7 +11,7 @@ displayURL = "https://github.com/Creatures-5/VehicleCore"
 authors = "Creatures-5"
 description = "A fork of vehiclecore"
 logoFile = "icon.png"
-itemIcon = "vehiclecore:biplane"
+itemIcon = "vehiclecore:debug"
 
 [[dependencies.vehiclecore]]
 modId = "minecraft"
